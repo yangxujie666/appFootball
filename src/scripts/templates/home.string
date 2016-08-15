@@ -1,0 +1,93 @@
+
+<header class="header">
+  <div class="icon first"  action-type="swith_aside">&#xe745;</div>
+  <div class='a_title'>
+    <ul id="tit_ul">
+      <li class="active" action-type="swith-main">热点</li>
+      <li action-type="swith-main">关注</li>
+    </ul>
+  </div>
+  <div class="icon scan" action-type="scan">&#xe684;</div>
+</header>
+<div class="swiper-container swiper" id="hot-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide hot-slide" id="box">
+          <nav class="nav">
+            <ul id="nav_ul">
+              <li class="nav_active"  action-type="swith_nav">足球现场</li>
+              <li action-type="swith_nav">足球生活</li>
+              <li action-type="swith_nav">足球美女</li>
+            </ul>
+          </nav>
+          <section class="sec" id="sec" spa-widget="scroll" data-scroll-id="homeListScroll">
+            <div class="scroller swiper-container" id="scroller">
+            <div class="scrollBox swiper-wrapper">
+              
+              <article class="art swiper-slide" id="art_b">
+                 <div class="head">
+                    <img src="/images/arrow.png"/>
+                    <span>下拉刷新...</span>
+                 </div>
+                 <ul ms-repeat-value="listdata">
+                    <li action-type="goto.detiles" ms-attr-data-id="value[0].id">
+                      <img ms-src="value[0].img">
+                      <p ms-text="value[0].title"></p>
+                    </li>
+                    <li></li>
+                    <li ms-class-hide="!value[1]" action-type="goto.detiles" ms-attr-data-id="value[1].id">
+                      <img ms-src="value[1].img">
+                      <p ms-text="value[1].title"></p>
+                    </li>
+                  </ul> 
+                  <div class="foot">
+                    <img src="/images/arrow.png"/>
+                    <span>上拉加载更多...</span>
+                  </div>    
+              </article>
+              <article class="art swiper-slide" id="art_l">
+                 <ul ms-repeat-value="livedata">
+                    <li>
+                      <img ms-src="value[0].img">
+                      <p ms-text="value[0].title"></p>
+                    </li>
+                    <li></li>
+                    <li ms-class-hide="!value[1]">
+                      <img ms-src="value[1].img">
+                      <p ms-text="value[1].title"></p>
+                    </li>
+                  </ul> 
+              </article>
+              <article class="art swiper-slide" id="art_w">
+                  <ul>
+                    <li>
+                      <img src="images/img1.jpg">
+                      <p>樱桃小丸子</p>
+                    </li>
+                    <li></li>
+                    <li>
+                      <img src="images/img2.jpg">
+                      <p>樱桃小丸子</p>
+                    </li>
+                  </ul>
+                   <ul>
+                    <li>
+                      <img src="images/img3.jpg">
+                      <p>樱桃小丸子</p>
+                    </li>
+                    <li></li>
+                    <li>
+                      <img src="images/img4.jpg">
+                      <p>樱桃小丸子</p>
+                    </li>
+                  </ul>
+              </article>
+              
+            </div>
+            </div>  
+          </section>
+        </div>
+        <div class="swiper-slide hot-slide">关注......</div>
+    </div>
+</div>
+
+     

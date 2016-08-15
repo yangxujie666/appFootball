@@ -1,0 +1,11 @@
+<div class="container">
+      <div class="context">
+      </div>
+      <footer class="footer" id="footer">
+        <span class="cur" action-type="swith_tabs" data-tag="home"><i class="icon ft_cur">&#xe6bb;</i><br>首页</span>
+        <span action-type="swith_tabs" data-tag="seach"><i class="icon">&#xe65c;</i><br>发现</span>
+        <span><b><i class="icon">&#xe664;</i></b></span>
+        <span action-type="swith.dialog" data-tag="me"><i class="icon">&#xe735;</i><br>我的</span>
+        <span action-type="swith.guide"><i class="icon">&#xe603;</i><br>退出</span>
+      </footer>
+  </div>

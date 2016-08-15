@@ -1,0 +1,19 @@
+var me_html=require("../templates/me");
+SPA.defineView("me",{
+	html:me_html,
+	plugins:["delegated"],
+	bindActions:{
+		"close.dialog":function(e){
+			this.hide();
+		},
+		"tap.register":function(){
+			SPA.open("register",{
+				ani:{
+					name:"actionsheet",
+					width:280,
+					height:10
+				}
+			})
+		}
+	}
+});

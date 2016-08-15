@@ -1,0 +1,13 @@
+<div class="attention_scroller">
+	<ul class="attention_container">
+		<li>推荐</li>
+		<li>引进</li>
+		<li>电影</li>
+		<li>音乐</li>
+		<li>书籍</li>
+		<li>旅游</li>
+		<li>自然</li>
+		<li>家具</li>
+		<li>玩具</li> 
+	</ul>
+</div>

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.container_scroll{
+  width: 100%;
+  height: 100%;
+  .scroll_box{
+    width: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    header{
+      height: 100px;
+      background: #ccc;
+    }
+    section{
+      @include flex();
+      width: 100%;
+      h3{
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background: blue;
+        color: red;
+       
+      }
+
+      ul{
+        width: 100%;
+        padding: 0 20px;
+        @include box-sizing();
+        background: green;
+        li{
+          width: 100%;
+          line-height: 30px;
+
+        }
+      }
+    }
+  }
+}
+.sec_fixed{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: fixed !important;
+    top:0;
+    left: 0;
+    background: red;
+    color: blue; 
+}

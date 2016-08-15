@@ -1,0 +1,16 @@
+<div class="detiles_container">
+	<header>
+		<img ms-src="img">
+	</header>
+	<div class="detiles_title">
+		<p ms-text="title"></p>
+	</div>
+	<section>
+		<div spa-widget="scroll" data-scroll-id="detilesScroll">
+			<div>
+			<p>{{descripe}}</p>
+			</div>
+		</div>
+		
+	</section>
+</div>

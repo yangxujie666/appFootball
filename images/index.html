@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>足球圈</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style type="text/css">
+    @font-face{
+      font-family:"raphaelicons";
+      src:url(iconfont/raphaelicons-webfont.woff) format("woff");
+    }
+    .icon{
+      width:20px;
+      height:20px;
+      display: inline-block;
+    }
+    .icon::after{
+      content:attr(data-text);
+      font-family:"raphaelicons";
+      color:red;
+      display:block;
+      font-size:20px;
+    }
+  </style>
+</head>
+<body>
+ <i class="icon" data-text="b"></i>
+</body>
+</html>
