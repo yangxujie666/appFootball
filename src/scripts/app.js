@@ -12,7 +12,7 @@ require("./modules/register");
 require("./modules/detiles");
 
 SPA.config({//配置默认的视口
-	indexView: 'guide'//默认的视口
+	indexView: 'index'//默认的视口
 });
 
 
