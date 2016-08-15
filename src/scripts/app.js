@@ -10,6 +10,7 @@ require("./modules/seach");
 require("./modules/guide");
 require("./modules/register");
 require("./modules/detiles");
+require("./modules/detiles");
 
 SPA.config({//配置默认的视口
 	indexView: 'guide'//默认的视口
